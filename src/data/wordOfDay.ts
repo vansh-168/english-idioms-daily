@@ -1,0 +1,118 @@
+import type { WordEntry } from '../types'
+
+// Rotation pool for the "Word of the Day" feature. Also used as the
+// offline fallback if the live dictionary API call fails.
+export const wordList: WordEntry[] = [
+  {
+    word: 'ephemeral',
+    phonetic: '/ɪˈfem.ər.əl/',
+    partOfSpeech: 'adjective',
+    definition: 'Lasting for a very short time.',
+    example: 'Fame in that industry can be ephemeral.',
+  },
+  {
+    word: 'ubiquitous',
+    phonetic: '/juːˈbɪk.wɪ.təs/',
+    partOfSpeech: 'adjective',
+    definition: 'Present, appearing, or found everywhere.',
+    example: 'Smartphones have become ubiquitous in modern life.',
+  },
+  {
+    word: 'resilient',
+    phonetic: '/rɪˈzɪl.i.ənt/',
+    partOfSpeech: 'adjective',
+    definition: 'Able to recover quickly from difficulties.',
+    example: 'Children can be remarkably resilient after setbacks.',
+  },
+  {
+    word: 'meticulous',
+    phonetic: '/məˈtɪk.jə.ləs/',
+    partOfSpeech: 'adjective',
+    definition: 'Showing great attention to detail; very careful.',
+    example: 'She kept meticulous records of every transaction.',
+  },
+  {
+    word: 'eloquent',
+    phonetic: '/ˈel.ə.kwənt/',
+    partOfSpeech: 'adjective',
+    definition: 'Fluent and persuasive in speaking or writing.',
+    example: 'He gave an eloquent speech at the ceremony.',
+  },
+  {
+    word: 'serendipity',
+    phonetic: '/ˌser.ənˈdɪp.ə.ti/',
+    partOfSpeech: 'noun',
+    definition: 'The occurrence of finding pleasant things by chance.',
+    example: 'Meeting her old friend at the airport was pure serendipity.',
+  },
+  {
+    word: 'tenacious',
+    phonetic: '/təˈneɪ.ʃəs/',
+    partOfSpeech: 'adjective',
+    definition: 'Persistent and determined; not easily giving up.',
+    example: 'Her tenacious attitude helped her finish the marathon despite the injury.',
+  },
+  {
+    word: 'candid',
+    phonetic: '/ˈkæn.dɪd/',
+    partOfSpeech: 'adjective',
+    definition: 'Truthful and straightforward; frank.',
+    example: 'I appreciate your candid feedback on my writing.',
+  },
+  {
+    word: 'pragmatic',
+    phonetic: '/præɡˈmæt.ɪk/',
+    partOfSpeech: 'adjective',
+    definition: 'Dealing with things sensibly and realistically.',
+    example: 'We need a pragmatic solution, not an idealistic one.',
+  },
+  {
+    word: 'ambiguous',
+    phonetic: '/æmˈbɪɡ.ju.əs/',
+    partOfSpeech: 'adjective',
+    definition: 'Open to more than one interpretation; unclear.',
+    example: 'The instructions were ambiguous, so nobody knew what to do.',
+  },
+  {
+    word: 'altruistic',
+    phonetic: '/ˌæl.truˈɪs.tɪk/',
+    partOfSpeech: 'adjective',
+    definition: "Showing selfless concern for others' well-being.",
+    example: 'Volunteering at the shelter was an altruistic act.',
+  },
+  {
+    word: 'whimsical',
+    phonetic: '/ˈwɪm.zɪ.kəl/',
+    partOfSpeech: 'adjective',
+    definition: 'Playfully quaint or fanciful.',
+    example: "The children's book had a whimsical illustration style.",
+  },
+  {
+    word: 'plausible',
+    phonetic: '/ˈplɔː.zə.bəl/',
+    partOfSpeech: 'adjective',
+    definition: 'Seeming reasonable or probable.',
+    example: 'He gave a plausible explanation for being late.',
+  },
+  {
+    word: 'gregarious',
+    phonetic: '/ɡrɪˈɡeə.ri.əs/',
+    partOfSpeech: 'adjective',
+    definition: 'Fond of company; sociable.',
+    example: 'Her gregarious personality made her popular at parties.',
+  },
+  {
+    word: 'astute',
+    phonetic: '/əˈstjuːt/',
+    partOfSpeech: 'adjective',
+    definition: 'Having sharp judgment; shrewd.',
+    example: 'The astute investor noticed the trend before anyone else.',
+  },
+  {
+    word: 'diligent',
+    phonetic: '/ˈdɪl.ɪ.dʒənt/',
+    partOfSpeech: 'adjective',
+    definition: 'Showing care and conscientious effort in work.',
+    example: 'The diligent student reviewed her notes every night.',
+  },
+]
